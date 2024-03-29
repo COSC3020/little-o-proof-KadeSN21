@@ -18,4 +18,4 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-Assuming the above, we can choose a constant b, so $0 < b <c $ now $b(g(n)) < c(g(n)) \forall n$, this follows $f(n) < b * g(n) \forall n > n_0$. Therefor, by the constants $b and n_0$ we know that $\forall n > n_0 > n, 0 \le f(n) < b * g(n)$. Satisfying $f(n) \in 0(g(n)) f(n) \in 0(g(n))$
+Assuming the above, we can choose a constant b, so $0 < b <c $ now $b(g(n)) < c(g(n)) \forall n$, this follows $f(n) < b * g(n) \forall n > n_0$. Therefor, by the constants $b and n_0$ we know that $\forall n > n_0 > n, 0 \le f(n) < b * g(n)$. Satisfying $f(n) \in o(g(n)) f(n) \in o(g(n))$
