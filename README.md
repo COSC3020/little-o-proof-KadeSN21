@@ -18,4 +18,7 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-Assuming the above, we can choose a constant b, so $0 < b <c $ now $b(g(n)) < c(g(n)) \forall n$, this follows $f(n) < b * g(n) \forall n > n_0$. Therefor, by the constants $b and n_0$ we know that $\forall n > n_0 > n, 0 \le f(n) < b * g(n)$. Satisfying $f(n) \in o(g(n)) f(n) \in o(g(n))$
+
+Big $O$: $f(n) \in O(g(n)) \iff  \exists (c, n_0) > 0: f(n) \le c(g(n)) \forall n \ge n_0$
+
+Using the above, we know that $f(n) \in o(g(n)) \and f(n) \in O(g(n))$. We can prove this by choosing the same constants $c$ and $n_0$ for $f(n) \in o(g(n))$ and $f(n) \in O(g(n))$. Then, $f(n) \le c(g(n)) \forall n \ge n_0$. Therefor $f(n) \in o(g(n))$ implies $f(n) \in O(g(n))$
