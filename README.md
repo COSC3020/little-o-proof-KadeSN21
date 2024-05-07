@@ -22,3 +22,5 @@ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 Big $O$: $f(n) \in O(g(n)) \iff  \exists (c, n_0) > 0: f(n) \le c(g(n)) \forall n \ge n_0$
 
 Using the above, we know that $f(n) \in o(g(n)) \and f(n) \in O(g(n))$. We can prove this by choosing the same constants $c$ and $n_0$ for $f(n) \in o(g(n))$ and $f(n) \in O(g(n))$. Then, $f(n) \le c(g(n)) \forall n \ge n_0$. Therefor $f(n) \in o(g(n))$ implies $f(n) \in O(g(n))$
+
+Help: ChatGPT, Bing AI, and Stackoverflow.com
